@@ -30,7 +30,7 @@ export default {
     itemC(index){
       this.currentI = index;
       // console.log(index);
-      
+      this.$emit('tabClick',index)
     }
   },
 }
